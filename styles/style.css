@@ -3,7 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8f5;
-    color: #333;
+    color: #333333;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 10px;
 }
 
 /* Темная тема */
@@ -28,26 +33,13 @@ body {
     background: linear-gradient(45deg, #444, #666);
 }
 
-.dark-mode a {
-    color: #81C784;
+/* Изменяем цвет ссылок в навигации */
+.dark-mode nav ul li a {
+    color: #A5D6A7;  /* Яркий цвет для ссылок */
 }
 
 .dark-mode nav ul li a:hover {
-    color: #A5D6A7;
-}
-
-button {
-    background: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-button:hover {
-    background: #45a049;
+    color: #81C784;  /* Цвет при наведении */
 }
 
 button {
